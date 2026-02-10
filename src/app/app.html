@@ -1,0 +1,13 @@
+<mat-toolbar>
+ 
+  <span>Lokaler Kalender</span>
+  <span class="example-spacer"></span>
+  <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" [routerLink]="'/chart'">
+    <mat-icon>pie_chart</mat-icon>
+  </button>
+  <button matIconButton class="example-icon" aria-label="Example icon-button with share icon" [routerLink]="''">
+    <mat-icon>event</mat-icon>
+  </button>
+</mat-toolbar>
+
+<router-outlet />
